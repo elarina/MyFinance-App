@@ -6,13 +6,9 @@ Financial accounting application based on Eclipse RCP.
 ## Import to workspace
 1. Run in command line: git clone https://github.com/elarina/MyFinance-App.git MyFinances-App
 2. Open Eclipse IDE for RCP and RAP Developers.
-3. File -> Import -> Plug-in Development -> Plug-ins and Fragments -> Next
-4. In "Import From" group choose "Directory"
-5. In "Plug-ins and Fragments to Import" choose "Select from all plug-ins and fragments found at the specified location"
-6. In "Import As" choose "Projects with source folders"
-7. Next
-8. Add All
-9. Finish
+3. File -> Import -> Existing Projects into Workspace -> Next
+4. Select root directory: MyFinances-App
+5. Finish.
 
 ## Run configurations
 1. Run -> Run Configurations
