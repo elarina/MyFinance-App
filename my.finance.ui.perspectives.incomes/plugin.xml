@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="my.finance.ui.perspective.incomes.perspective.IncomesPerspective"
+            icon="icons/incomes.png"
+            id="my.finance.ui.perspective.incomes.incomes_perspective"
+            name="%incomes">
+      </perspective>
+   </extension>
+</plugin>

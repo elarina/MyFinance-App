@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: App
+Bundle-Localization: plugin
+Bundle-SymbolicName: my.finances.app;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: my.finances.app.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.event,
+ my.finance.ui.views,
+ my.finance.ui.perspective.incomes,
+ my.finance.ui.perspective.outcomes
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: my.finances.app
+Bundle-ActivationPolicy: lazy

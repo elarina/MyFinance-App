@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Views
+Bundle-SymbolicName: my.finance.ui.views;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: my.finance.views.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: my.finance.views
+Import-Package: javax.inject
+Bundle-ActivationPolicy: lazy
