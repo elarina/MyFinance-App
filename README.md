@@ -1,2 +1,2 @@
 # MyFinance-App
-Financial accounting application
+Financial accounting application based on Eclipse RCP.
