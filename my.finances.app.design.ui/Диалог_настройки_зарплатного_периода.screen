@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="sketch">
+  <widgets xsi:type="model:Window" id="1" x="264" y="232" height="241" text="Настройка периода" measuredWidth="400" measuredHeight="241" minimizeButton="true" maximizeButton="true"/>
+  <widgets xsi:type="model:Combo" id="3" x="544" y="304" width="65" text="5" measuredWidth="65" measuredHeight="28">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="306" y="304" text="Первый день периода:" measuredWidth="166" measuredHeight="28">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="306" y="360" text="Последний день периода:" measuredWidth="188" measuredHeight="28">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="6" x="544" y="360" width="65" text="20" measuredWidth="65" measuredHeight="28">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="15px"/>
+</model:Screen>
