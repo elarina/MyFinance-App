@@ -2,7 +2,7 @@
 Financial accounting application based on Eclipse RCP.
 
 # Application Architecture Design
-See /my.finances.app.uml.components/model/components.ecore diagrams
+See /my.finances.app.uml.components/model/components.ecore uml diagrams
 
 Elipse Modeling Framework should be installed in IDE for viewing diagrams.
 
