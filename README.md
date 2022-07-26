@@ -4,7 +4,7 @@ Financial accounting application based on Eclipse RCP.
 # Project Design
 See /my.finances.app.uml.components/model/components.ecore diagrams
 
-# Run from IDE
+# Run project from IDE
 
 ## Import to workspace
 1. Run in command line: git clone https://github.com/elarina/MyFinance-App.git MyFinances-App
