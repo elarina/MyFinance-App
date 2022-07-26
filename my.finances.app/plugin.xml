@@ -38,5 +38,17 @@
             name="New Month">
       </command>
    </extension>
+   <extension
+         id="finances"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="my.finances.app.application"
+            name="Finances App">
+         <property
+               name="appName"
+               value="Finances App">
+         </property>
+      </product>
+   </extension>
 
 </plugin>
