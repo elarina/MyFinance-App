@@ -16,7 +16,7 @@ Elipse Modeling Framework should be installed in IDE for viewing diagrams.
 ## Class diagram example
 my.finances.app.core class diagram:
 
-![](examples/my.finances.app.core class diagram.jpg)
+![](examples/my.finances.app.core_class_diagram.jpg)
 
 # Run from IDE
 
