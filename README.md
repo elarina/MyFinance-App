@@ -20,3 +20,8 @@ Financial accounting application based on Eclipse RCP.
 7. Add Required Plug-ins
 8. Apply
 9. Run
+
+# Build with maven and Run executable
+## Build
+
+## Run
