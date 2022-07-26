@@ -62,4 +62,5 @@ WireframeSketcher should be installed into IDE for viewing UI-sketchs.
 4. Install it.
 
 ## UI design examples
+Summary UI-perspective:
 ![](examples/Сводная_UI_перспектива.JPG)
