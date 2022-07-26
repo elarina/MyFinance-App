@@ -1,6 +1,18 @@
 # MyFinances-App
 Financial accounting application based on Eclipse RCP.
 
+# Application Architecture Design
+See /my.finances.app.uml.components/model/components.ecore uml diagrams
+
+Elipse Modeling Framework should be installed in IDE for viewing diagrams.
+
+### Install EMF to IDE
+1. Help -> Install New Software...
+2. In "Work with" field type http://download.eclipse.org/releases/latest
+3. Find in list and expand "Modeling"
+4. Check "EMF - Eclipse Modeling Framework SDK" and the "Ecore Diagram Editor (SDK)"
+5. Install it.
+
 # Run from IDE
 
 ## Import to workspace
