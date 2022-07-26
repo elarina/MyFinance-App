@@ -6,7 +6,7 @@ See /my.finances.app.uml.components/model/components.ecore diagrams
 
 Elipse Modeling Framework should be installed in IDE for viewing diagrams.
 
-## Install EMF to IDE
+### Install EMF to IDE
 1. Help -> Install New Software...
 2. In "Work with" field of opening wizard type http://download.eclipse.org/releases/latest
 3. Find in list and expand "Modeling"
