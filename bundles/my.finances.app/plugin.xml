@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="my.finances.app.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="%Window_title"
+            application="my.finances.app.application">
+         <property
+               name="aboutText"
+               value="Financial accounting application">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/app_icon_32.jpg">
+         </property>
+         <property
+               name="aboutImage"
+               value="product_lg.gif">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="my.finances.app.create"
+            name="New Month">
+      </command>
+   </extension>
+   <extension
+         id="finances"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="my.finances.app.application"
+            name="Finances App">
+         <property
+               name="appName"
+               value="Finances App">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
