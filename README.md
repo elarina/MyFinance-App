@@ -1,6 +1,9 @@
 # MyFinances-App
 Financial accounting application based on Eclipse RCP.
 
+# Project Design
+See /my.finances.app.uml.components/model/components.ecore diagrams
+
 # Run from IDE
 
 ## Import to workspace
