@@ -28,6 +28,7 @@ Financial accounting application based on Eclipse RCP.
 3. Type "mvn clean verify"
 
 ## Run
+After successfull build with maven:
 1. Go to my.finances.app\target\products\finances
 2. Go to folder which corresponding to your OS
 4. Find MyFinance.exe and run it.
