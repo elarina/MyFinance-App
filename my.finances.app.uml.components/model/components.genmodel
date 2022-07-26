@@ -11,20 +11,20 @@
   <genPackages prefix="Components" basePackage="my.finances.app.umls" disposableProviderFactory="true"
       ecorePackage="components.ecore#/">
     <nestedGenPackages prefix="NewPackage1" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core">
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/Entry">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/Entry/date"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/Entry/name"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/Entry/sum"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/Entry/comment"/>
+      <genDataTypes ecoreDataType="components.ecore#//my.finances.app.core/List"/>
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/TableEntry">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableEntry/date"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableEntry/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableEntry/sum"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableEntry/comment"/>
       </genClasses>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core/Salary"/>
       <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/IncomeEntry"/>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/Prepaiment"/>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core/ConcreteIncome"/>
       <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/BalanceEntry"/>
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/Template">
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/TableContentTemplate">
         <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core/Template/tableentries"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core/TableContentTemplate/tableentries"/>
       </genClasses>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core/OutcomesTemplate"/>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core/Balances"/>
@@ -46,9 +46,10 @@
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/Period/end"/>
       </genClasses>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core/TotalBalance"/>
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/TemporaryName">
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/TableContent">
         <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core/TemporaryName/entries"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core/TableContent/entries"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableContent/entryList"/>
       </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage2" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui"/>
