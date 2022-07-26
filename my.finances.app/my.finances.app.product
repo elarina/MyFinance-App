@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Finances App" uid="finances" id="my.finances.app.finances" application="my.finances.app.application" version="1.0.0_qualifier" useFeatures="false" includeLaunchers="true">
+<product name="Finances App" uid="finances" id="my.finances.app.finances" application="my.finances.app.application" version="1.0.0.qualifier" useFeatures="false" includeLaunchers="true">
+
 
    <configIni use="default">
    </configIni>
@@ -10,6 +11,27 @@
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
+
+   <windowImages/>
+
+   <launcher name="MyFinance">
+      <win useIco="false">
+         <ico path="/my.finances.app/icons/pacx.ico"/>
+         <bmp
+            winSmallHigh="/my.finances.app/icons/app_icon_16_32bit.bmp"
+            winSmallLow="/my.finances.app/icons/app_icon_16_8bit.bmp"
+            winMediumHigh="/my.finances.app/icons/app_icon_32_32bit.bmp"
+            winMediumLow="/my.finances.app/icons/app_icon_32_8bit.bmp"
+            winLargeHigh="/my.finances.app/icons/app_icon_48_32bit.bmp"
+            winLargeLow="/my.finances.app/icons/app_icon_48_8bit.bmp"
+            winExtraLargeHigh="/my.finances.app/icons/app_icon_256_32bit.bmp"/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
 
    <plugins>
       <plugin id="biz.aQute.bndlib"/>
@@ -98,6 +120,7 @@
       <plugin id="org.eclipse.equinox.registry"/>
       <plugin id="org.eclipse.equinox.security"/>
       <plugin id="org.eclipse.equinox.security.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.equinox.simpleconfigurator"/>
       <plugin id="org.eclipse.help"/>
       <plugin id="org.eclipse.jface"/>
       <plugin id="org.eclipse.jface.databinding"/>
@@ -143,6 +166,10 @@
       <plugin id="org.w3c.dom.smil"/>
       <plugin id="org.w3c.dom.svg"/>
    </plugins>
+
+   <features>
+      <feature id="my.finance.ui.feature" installMode="root"/>
+   </features>
 
    <configurations>
       <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
