@@ -58,7 +58,7 @@ my.finances.app.core.month new class diagram:
 ![](examples/my.finances.app.core.month_new_class_diagram.jpg)
 
 # User Interface Design
-See /design/my.finances.app.design.ui/
+See UI-sketches at /design/my.finances.app.design.ui/
 
 WireframeSketcher should be installed into IDE for viewing UI-sketchs.
 
