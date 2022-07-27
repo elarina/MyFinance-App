@@ -9,7 +9,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="components.ecore#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_t0l84g0eEe2ik81HJsCKiA" name="my.finances.app.core.month class diagram" repPath="#_t0l84A0eEe2ik81HJsCKiA" changeId="68caa421-f863-46e6-a0ca-fd70bc0c2c74">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_t0l84g0eEe2ik81HJsCKiA" name="my.finances.app.core.month class diagram" repPath="#_t0l84A0eEe2ik81HJsCKiA" changeId="d88cb111-eff3-4677-9000-39e733f3eb06">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.month"/>
       </ownedRepresentationDescriptors>
@@ -516,7 +516,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Nje_cg0-Ee2AMPAkZoOy6g" type="4001" element="_NjaG_A0-Ee2AMPAkZoOy6g" source="_uGN4YA0eEe2ik81HJsCKiA" target="_DlJHAA0-Ee2AMPAkZoOy6g">
           <children xmi:type="notation:Node" xmi:id="_NjfmgA0-Ee2AMPAkZoOy6g" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NjfmgQ0-Ee2AMPAkZoOy6g" x="35" y="-87"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NjfmgQ0-Ee2AMPAkZoOy6g" x="10" y="-83"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Njfmgg0-Ee2AMPAkZoOy6g" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Njfmgw0-Ee2AMPAkZoOy6g" x="59" y="10"/>
