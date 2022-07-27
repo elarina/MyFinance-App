@@ -60,7 +60,7 @@ my.finances.app.core.month new class diagram:
 # User Interface Design
 See UI-sketches at /design/my.finances.app.design.ui/
 
-WireframeSketcher should be installed into IDE for viewing UI-sketchs.
+WireframeSketcher should be installed into IDE for viewing sketchs.
 
 ## Install WireframeSketcher
 1. Help -> Install New Software...
