@@ -84,9 +84,9 @@
   </plugins>
  </build>
   <modules>
-   <module>my.finances.app</module>
-	<module>my.finance.ui.views</module>
-	<module>my.finance.ui.perspective.outcomes</module>
-	<module>my.finance.ui.perspective.incomes</module>
+   <module>bundles/my.finances.app</module>
+	<module>bundles/my.finance.ui.views</module>
+	<module>bundles/my.finance.ui.perspective.outcomes</module>
+	<module>bundles/my.finance.ui.perspective.incomes</module>
  </modules>
 </project>
