@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="28" x="75" y="48" measuredWidth="977" measuredHeight="809">
+    <widgets xsi:type="model:WidgetGroup" id="27" measuredWidth="977" measuredHeight="809">
+      <widgets xsi:type="model:Window" id="1" width="977" height="809" text="Мои Финансы" measuredWidth="977" measuredHeight="809" minimizeButton="true" maximizeButton="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="2" x="81" y="136" width="144" text="Зарплатные периоды" measuredWidth="144" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="140" height="27" text="Зарплатные периоды"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="3" x="81" y="162" width="966" text="Период (дни месяца),Комментарий,(align:center). &#xA;5/07/2022 - 20/07/2022,                                                                                                                                                                                      ,       &#xA;(bg:lightBlue).20/07/2022 - 5/08/2022,(bg:lightBlue).                                                                                                                                                                                                ,(bg:lightBlue).           &#xA;,," measuredWidth="966" measuredHeight="88" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="4" x="86" y="73" width="35" height="34" measuredWidth="35" measuredHeight="34">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="5" x="128" y="78" width="140" text="2022" measuredWidth="140" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="6" x="280" y="78" width="149" text="Июль" measuredWidth="149" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="7" x="76" y="107" width="975" measuredWidth="975" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="8" x="912" y="77" width="25" height="30" measuredWidth="25" measuredHeight="30" foreground="#666" icon="options (large)"/>
+  <widgets xsi:type="model:Icon" id="9" x="945" y="78" width="24" height="27" measuredWidth="24" measuredHeight="27" foreground="#f1c232" icon="database (large)"/>
+  <widgets xsi:type="model:Icon" id="10" x="976" y="77" height="29" measuredWidth="32" measuredHeight="29" foreground="#f00" icon="minus (large)"/>
+  <widgets xsi:type="model:Icon" id="11" x="1015" y="76" measuredWidth="32" measuredHeight="32" foreground="#0f0" icon="bar-chart (large)"/>
+  <widgets xsi:type="model:Icon" id="12" x="89" y="76" width="29" height="27" measuredWidth="29" measuredHeight="27" foreground="#38761d" icon="add (large)"/>
+  <widgets xsi:type="model:Tabs" id="19" x="81" y="352" width="133" text="Доходы" measuredWidth="133" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="64" height="27" text="Доходы"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="20" x="81" y="387" width="971" text="Наименование,Сумма,(align:center). &#xA;Зарплата,180 000,&#xA;Выигрыш в лотерею, 100,&#xA;,,&#xA;,,&#xA;" measuredWidth="971" measuredHeight="109" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="21" x="85" y="422" width="964" measuredWidth="964" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="22" x="85" y="450" width="964" measuredWidth="964" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="23" x="87" y="496" width="964" measuredWidth="964" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="24" x="85" y="500" width="964" measuredWidth="964" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="25" x="988" y="412" width="41" height="25" measuredWidth="41" measuredHeight="25" foreground="#f00" icon="delete (large)"/>
+  <widgets xsi:type="model:Icon" id="26" x="985" y="445" width="48" height="25" measuredWidth="48" measuredHeight="25" foreground="#f00" icon="delete (large)"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

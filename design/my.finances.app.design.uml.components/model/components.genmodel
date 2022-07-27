@@ -5,57 +5,82 @@
     editDirectory="/my.finances.app.umls.components.edit/src-gen" editorDirectory="/my.finances.app.umls.components.editor/src-gen"
     modelPluginID="my.finances.app.umls.components" modelName="Components" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
-    copyrightFields="false" operationReflection="true" importOrganizing="true">
+    copyrightFields="false" usedGenPackages="#//components/my.finances.app.ui.0" operationReflection="true"
+    importOrganizing="true">
   <foreignModel>components.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
   <genPackages prefix="Components" basePackage="my.finances.app.umls" disposableProviderFactory="true"
       ecorePackage="components.ecore#/">
-    <nestedGenPackages prefix="NewPackage1" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core">
-      <genDataTypes ecoreDataType="components.ecore#//my.finances.app.core/List"/>
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/TableEntry">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableEntry/date"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableEntry/name"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableEntry/sum"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableEntry/comment"/>
-      </genClasses>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/Salary"/>
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/IncomeEntry"/>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/ConcreteIncome"/>
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/BalanceEntry"/>
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/TableContentTemplate">
+    <nestedGenPackages prefix="NewPackage1" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.month">
+      <genDataTypes ecoreDataType="components.ecore#//my.finances.app.core.month/List"/>
+      <genDataTypes ecoreDataType="components.ecore#//my.finances.app.core.month/Date"/>
+      <genDataTypes ecoreDataType="components.ecore#//my.finances.app.core.month/String"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.month/ConcretePeriod">
         <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core/TableContentTemplate/tableentries"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.month/ConcretePeriod/temporarynames"/>
       </genClasses>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/OutcomesTemplate"/>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/Balances"/>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/OutcomeEntry"/>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/ConcretePeriod">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.month/TemplatePeriod">
         <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core/ConcretePeriod/temporarynames"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.month/TemplatePeriod/tablecontenttemplates"/>
       </genClasses>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/TemplatePeriod">
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.month/Period">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.month/Period/start"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.month/Period/end"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.month/TableContent">
         <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core/TemplatePeriod/templates"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.month/TableContent/entries"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.month/TableContent/entryList"/>
       </genClasses>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/PeriodBalance"/>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/Outcomes"/>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/IncomesTemplate"/>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/Incomes"/>
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/Period">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/Period/start"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/Period/end"/>
-      </genClasses>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core/TotalBalance"/>
-      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core/TableContent">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.month/Month">
         <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core/TableContent/entries"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core/TableContent/entryList"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.month/Month/periods"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.month/Month/year"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.month/Month/month"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.month/Month/periodList"/>
+      </genClasses>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.month/Root">
+        <genFeatures children="true" createChild="true" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.month/Root/months"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.month/Root/monthsList"/>
       </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage2" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui"/>
     <nestedGenPackages prefix="NewPackage3" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.controller"/>
-    <nestedGenPackages prefix="NewPackage4" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.perspectives"/>
-    <nestedGenPackages prefix="NewPackage5" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.views"/>
-    <nestedGenPackages prefix="NewPackage6" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.commands"/>
+    <nestedGenPackages prefix="NewPackage4" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.perspectives"/>
+    <nestedGenPackages prefix="NewPackage5" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.views"/>
+    <nestedGenPackages prefix="NewPackage6" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.commands"/>
+    <nestedGenPackages prefix="NewPackage7" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.flex"/>
+    <nestedGenPackages prefix="NewPackage8" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.templates">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.templates/IncomesTemplate"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.templates/OutcomesTemplate"/>
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.templates/TableContentTemplate">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.templates/TableContentTemplate/tableentries"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage9" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.core">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.core/PeriodBalance"/>
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.core/BalanceEntry"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.core/Salary"/>
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.core/IncomeEntry"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.core/ConcreteIncome"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.core/OutcomeEntry"/>
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.core/TableEntry">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.core/TableEntry/date"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.core/TableEntry/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.core/TableEntry/sum"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.core/TableEntry/comment"/>
+      </genClasses>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.core/TotalBalance"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage10" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.table.content">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.table.content/Incomes"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.table.content/Balances"/>
+      <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.table.content/TableContent">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.table.content/TableContent/entries"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.table.content/TableContent/entryList"/>
+      </genClasses>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.table.content/Outcomes"/>
+    </nestedGenPackages>
   </genPackages>
 </genmodel:GenModel>

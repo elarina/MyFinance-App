@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="16" x="98" y="40" measuredWidth="979" measuredHeight="801">
+    <widgets xsi:type="model:WidgetGroup" id="15" measuredWidth="979" measuredHeight="801">
+      <widgets xsi:type="model:Window" id="1" width="979" height="801" text="Window" measuredWidth="979" measuredHeight="801" minimizeButton="true" maximizeButton="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="5" x="100" y="107" width="975" measuredWidth="975" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="6" x="912" y="77" width="25" height="30" measuredWidth="25" measuredHeight="30" foreground="#666" icon="options (large)"/>
+  <widgets xsi:type="model:Icon" id="7" x="945" y="78" width="24" height="27" measuredWidth="24" measuredHeight="27" foreground="#f1c232" icon="database (large)"/>
+  <widgets xsi:type="model:Icon" id="8" x="976" y="77" height="29" measuredWidth="32" measuredHeight="29" foreground="#f00" icon="minus (large)"/>
+  <widgets xsi:type="model:Icon" id="9" x="1015" y="76" measuredWidth="32" measuredHeight="32" foreground="#0f0" icon="bar-chart (large)"/>
+  <widgets xsi:type="model:Label" id="11" x="536" y="78" text="-" measuredWidth="12" measuredHeight="28">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="14" x="104" y="64" width="59" height="37" measuredWidth="59" measuredHeight="37">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="13" x="118" y="67" measuredWidth="32" measuredHeight="32" icon="dots (large)"/>
+  <widgets xsi:type="model:TextField" id="17" x="176" y="71" width="185" text="01/04/2022 - 30/09/2022" measuredWidth="185" measuredHeight="28">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="18" x="105" y="170" text="Доходы" measuredWidth="77" measuredHeight="36" selection="0">
+    <items x="1" y="0" width="75" height="36" text="Доходы"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="19" x="105" y="205" width="480" height="332" text="Наименование,Сумма,(align:center). &#xA;Зарплата,180 000,&#xA;Выигрыш в лотерею, 100,&#xA;,,&#xA;,,&#xA;,," measuredWidth="480" measuredHeight="332" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="20" x="108" y="260" width="477" measuredWidth="477" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="21" x="108" y="288" width="477" measuredWidth="477" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="22" x="108" y="314" width="477" measuredWidth="477" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="23" x="108" y="338" width="477" measuredWidth="477" measuredHeight="6"/>
+  <widgets xsi:type="model:Table" id="24" x="591" y="205" width="480" height="332" text="Наименование,Сумма,(align:center). &#xA;Родителям,55 000,  &#xA;Курсы шитья, 6 000,   &#xA;Продукты и бытовые расходы, 11000,   &#xA;,,&#xA;,," measuredWidth="480" measuredHeight="332" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="25" x="591" y="170" width="82" text="Расходы" measuredWidth="82" measuredHeight="36" selection="0">
+    <items x="1" y="0" width="79" height="36" text="Расходы"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="26" x="592" y="260" width="477" measuredWidth="477" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="27" x="592" y="288" width="477" measuredWidth="477" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="28" x="592" y="314" width="477" measuredWidth="477" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="29" x="592" y="338" width="477" measuredWidth="477" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="30" x="552" y="236" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#f00" icon="delete (large)"/>
+  <widgets xsi:type="model:Icon" id="31" x="1043" y="239" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#f00" icon="delete (large)"/>
+  <widgets xsi:type="model:Icon" id="32" x="1043" y="263" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#f00" icon="delete (large)"/>
+  <widgets xsi:type="model:Icon" id="33" x="1043" y="293" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#f00" icon="delete (large)"/>
+  <widgets xsi:type="model:Icon" id="34" x="552" y="263" width="24" height="25" measuredWidth="24" measuredHeight="25" foreground="#f00" icon="delete (large)"/>
+  <widgets xsi:type="model:Table" id="35" x="105" y="632" width="966" text="Наименование, Сумма, Комментарий&#xA;Остаток в текущем периоде, 143 000,                                                                                                                                                                     &#xA;Остаток в текущем месяце, 200 000,   &#xA;Общий остаток, 745 000, " measuredWidth="966" measuredHeight="116" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="36" x="108" y="597" text="Баланс" measuredWidth="72" measuredHeight="36" selection="0">
+    <items x="1" y="0" width="70" height="36" text="Баланс"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="37" x="106" y="687" width="964" measuredWidth="964" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="38" x="107" y="712" width="964" measuredWidth="964" measuredHeight="6"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="15px"/>
+</model:Screen>
