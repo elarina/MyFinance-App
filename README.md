@@ -1,23 +1,6 @@
 # MyFinances-App
 Financial accounting application based on Eclipse RCP.
 
-# Application Architecture Design
-See /my.finances.app.uml.components/model/components.ecore uml diagrams
-
-Elipse Modeling Framework should be installed in IDE for viewing diagrams.
-
-## Install EMF to IDE
-1. Help -> Install New Software...
-2. In "Work with" field type http://download.eclipse.org/releases/latest
-3. Find in list and expand "Modeling"
-4. Check "EMF - Eclipse Modeling Framework SDK" and the "Ecore Diagram Editor (SDK)"
-5. Install it.
-
-## Class diagram example
-my.finances.app.core class diagram:
-
-![](examples/my.finances.app.core_class_diagram.jpg)
-
 # Run from IDE
 
 ## Import to workspace
@@ -49,3 +32,35 @@ After successfull build with maven:
 1. Go to my.finances.app\target\products\finances
 2. Go to folder which corresponding to your OS
 4. Find MyFinance.exe and run it.
+
+# Application Architecture Design
+See /design/my.finances.app.uml.components/model/components.ecore uml diagrams
+
+Elipse Modeling Framework should be installed into IDE for viewing diagrams.
+
+## Install EMF to IDE
+1. Help -> Install New Software...
+2. In "Work with" field type http://download.eclipse.org/releases/latest
+3. Find in list and expand "Modeling"
+4. Check "EMF - Eclipse Modeling Framework SDK" and the "Ecore Diagram Editor (SDK)"
+5. Install it.
+
+## Class diagram example
+my.finances.app.core class diagram:
+
+![](examples/my.finances.app.core_class_diagram.jpg)
+
+# User Interface Design
+See /design/my.finances.app.design.ui/
+
+WireframeSketcher should be installed into IDE for viewing UI-sketchs.
+
+## Install WireframeSketcher
+1. Help -> Install New Software...
+2. In "Work with" field type https://wireframesketcher.com/updates
+3. Check all in list.
+4. Install it.
+
+## UI design examples
+Summary UI-perspective:
+![](examples/Сводная_UI_перспектива.JPG)
