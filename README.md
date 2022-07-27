@@ -34,7 +34,7 @@ After successfull build with maven:
 4. Find MyFinance.exe and run it.
 
 # Application Architecture Design
-See /design/my.finances.app.uml.components/model/components.ecore uml diagrams
+See uml diagrams at /design/my.finances.app.uml.components/model/components.ecore 
 
 Elipse Modeling Framework should be installed into IDE for viewing diagrams.
 
