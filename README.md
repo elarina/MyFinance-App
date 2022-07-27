@@ -34,7 +34,7 @@ After successfull build with maven:
 4. Find MyFinance.exe and run it.
 
 # Application Architecture Design
-See /design/my.finances.app.uml.components/model/components.ecore uml diagrams
+See uml diagrams at /design/my.finances.app.uml.components/model/components.ecore 
 
 Elipse Modeling Framework should be installed into IDE for viewing diagrams.
 
@@ -46,16 +46,21 @@ Elipse Modeling Framework should be installed into IDE for viewing diagrams.
 5. Install it.
 
 ## Class diagram example
-### my.finances.app.core.month old class diagram:
+### Old
+my.finances.app.core old class diagram:
 ![](examples/my.finances.app.core_class_diagram.jpg)
 
-### my.finances.app.core.month new class diagram:
+### New
+
+my.finances.app.core was split into plugins, one of which is my.finances.app.core.month.
+
+my.finances.app.core.month new class diagram:
 ![](examples/my.finances.app.core.month_new_class_diagram.jpg)
 
 # User Interface Design
-See /design/my.finances.app.design.ui/
+See UI-sketches at /design/my.finances.app.design.ui/
 
-WireframeSketcher should be installed into IDE for viewing UI-sketchs.
+WireframeSketcher should be installed into IDE for viewing sketchs.
 
 ## Install WireframeSketcher
 1. Help -> Install New Software...
@@ -64,5 +69,5 @@ WireframeSketcher should be installed into IDE for viewing UI-sketchs.
 4. Install it.
 
 ## UI design examples
-Summary UI-perspective:
-![](examples/Сводная_UI_перспектива.JPG)
+Flex periods UI-perspective:
+![](examples/flex_periods_persopective.JPG)
