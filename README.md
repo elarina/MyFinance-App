@@ -38,7 +38,7 @@ See uml diagrams at /design/my.finances.app.uml.components/model/components.ecor
 
 Elipse Modeling Framework should be installed into IDE for viewing diagrams.
 
-## Install EMF to IDE
+### Install EMF to IDE
 1. Help -> Install New Software...
 2. In "Work with" field type http://download.eclipse.org/releases/latest
 3. Find in list and expand "Modeling"
@@ -50,7 +50,7 @@ See UI-sketches at /design/my.finances.app.design.ui/
 
 WireframeSketcher should be installed into IDE for viewing sketchs.
 
-## Install WireframeSketcher
+### Install WireframeSketcher
 1. Help -> Install New Software...
 2. In "Work with" field type https://wireframesketcher.com/updates
 3. Check all in list.
