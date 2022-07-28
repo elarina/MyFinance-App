@@ -1,6 +1,6 @@
 package my.finances.app;
 
-import org.eclipse.swt.graphics.Point;
+import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.application.ActionBarAdvisor;
 import org.eclipse.ui.application.IActionBarConfigurer;
 import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
@@ -20,9 +20,14 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
     @Override
     public void preWindowOpen() {
         IWorkbenchWindowConfigurer configurer = getWindowConfigurer();
-        configurer.setInitialSize(new Point(600, 400));
         configurer.setShowCoolBar(true);
         configurer.setShowPerspectiveBar(true);
         configurer.setShowStatusLine(false);
     }    
+    
+    @Override
+    public void postWindowOpen() {
+    	super.postWindowOpen();
+    	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell().setMaximized(true);
+    }
 }
