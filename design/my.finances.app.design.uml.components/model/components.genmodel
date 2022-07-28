@@ -46,10 +46,29 @@
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage2" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui"/>
     <nestedGenPackages prefix="NewPackage3" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.controller"/>
-    <nestedGenPackages prefix="NewPackage4" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.perspectives"/>
+    <nestedGenPackages prefix="NewPackage4" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.perspectives">
+      <nestedGenPackages prefix="My.finances.app.ui.perspectives.incomes" disposableProviderFactory="true"
+          ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes">
+        <genClasses ecoreClass="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes/IncomesPerspective"/>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="My.finances.app.ui.perspectives.outcomes" disposableProviderFactory="true"
+          ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.outcomes">
+        <genClasses ecoreClass="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.outcomes/OutcomePerspective"/>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="My.finances.app.ui.perspectives.summary" disposableProviderFactory="true"
+          ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.summary">
+        <genClasses ecoreClass="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.summary/SummaryPerspective"/>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="My.finances.app.ui.perspectives.templates" disposableProviderFactory="true"
+          ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates">
+        <genClasses ecoreClass="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates/TemplatesPerspective"/>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="NewPackage5" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex">
+        <genClasses ecoreClass="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex/FlexPeriodsPerspective"/>
+      </nestedGenPackages>
+    </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage5" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.views"/>
     <nestedGenPackages prefix="NewPackage6" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.commands"/>
-    <nestedGenPackages prefix="NewPackage7" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.flex"/>
     <nestedGenPackages prefix="NewPackage8" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.model.templates">
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.templates/IncomesTemplate"/>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.templates/OutcomesTemplate"/>
@@ -81,5 +100,6 @@
       </genClasses>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.table.content/Outcomes"/>
     </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage10" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.database"/>
   </genPackages>
 </genmodel:GenModel>

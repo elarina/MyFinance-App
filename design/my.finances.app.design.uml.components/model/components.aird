@@ -5,7 +5,7 @@
     <semanticResources>components.genmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_Ie48oA0cEe2ik81HJsCKiA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_IfR-MA0cEe2ik81HJsCKiA" name="components" repPath="#_IfQJAA0cEe2ik81HJsCKiA" changeId="dec9b663-5b87-4b04-b9ad-d49c43e282df">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_IfR-MA0cEe2ik81HJsCKiA" name="components" repPath="#_IfQJAA0cEe2ik81HJsCKiA" changeId="891f6c6d-8018-4d5c-8d5b-b961db22f759">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="components.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -25,9 +25,36 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.model.table.content"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fP5sog6YEe2AMPAkZoOy6g" name="my.finances.app.core.flex class diagram" repPath="#_fP5soA6YEe2AMPAkZoOy6g" changeId="c2d0ccdf-d383-41a0-997b-e7ad149bba0b">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fP5sog6YEe2AMPAkZoOy6g" name="my.finances.app.core.flex class diagram" repPath="#_fP5soA6YEe2AMPAkZoOy6g" changeId="9bcc929f-64ae-48e0-9eb4-0dafc547c074">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
-        <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.flex"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_D7V50A6ZEe2AMPAkZoOy6g" name="my.finances.app.core.database class diagram" repPath="#_D7VSwA6ZEe2AMPAkZoOy6g" changeId="bef23e28-5c78-496c-983c-41105def1e5e">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.database"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MZ8d0g6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives class diagram" repPath="#_MZ8d0A6ZEe2AMPAkZoOy6g" changeId="3220ac29-4f60-4489-a260-4235130d0cc0">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_jDNwwA6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives.incomes class diagram" repPath="#_jDNJsA6ZEe2AMPAkZoOy6g" changeId="cd380f8f-5c1d-4d95-9aed-6f062d123748">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ueQ3wA6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives.outcomes class diagram" repPath="#_ueQQsA6ZEe2AMPAkZoOy6g" changeId="eec9fed7-7d7f-473a-8a7b-1ca5b6d4c05a">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.outcomes"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_xi0N4g6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives.summary class diagram" repPath="#_xi0N4A6ZEe2AMPAkZoOy6g" changeId="b54cdb57-d170-4a55-8a95-607c2b60b03f">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.summary"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_0XqUEA6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives.templates class diagram" repPath="#_0XptAA6ZEe2AMPAkZoOy6g" changeId="7fcdce65-55c1-44ec-b56a-39e85b2d0449">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3Be2AQ6ZEe2AMPAkZoOy6g" name="my.finances.app.perspectives.flex class diagram" repPath="#_3BeO8A6ZEe2AMPAkZoOy6g" changeId="382f832a-1dc2-4431-b14c-1a09996b2465">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -88,15 +115,6 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_HN4yUQ0dEe2ik81HJsCKiA" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HN4yUg0dEe2ik81HJsCKiA" x="1098" y="40" width="183" height="148"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_n7eZIA05Ee2AMPAkZoOy6g" type="2002" element="_n7Y5kA05Ee2AMPAkZoOy6g">
-          <children xmi:type="notation:Node" xmi:id="_n7eZIw05Ee2AMPAkZoOy6g" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_n7eZJA05Ee2AMPAkZoOy6g" type="7001">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_n7eZJQ05Ee2AMPAkZoOy6g"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_n7eZJg05Ee2AMPAkZoOy6g"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_n7eZIQ05Ee2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n7eZIg05Ee2AMPAkZoOy6g" x="46" y="437" width="192" height="158"/>
-        </children>
         <children xmi:type="notation:Node" xmi:id="_g4DH0A07Ee2AMPAkZoOy6g" type="2002" element="_g39BIA07Ee2AMPAkZoOy6g">
           <children xmi:type="notation:Node" xmi:id="_g4Du0A07Ee2AMPAkZoOy6g" type="5006"/>
           <children xmi:type="notation:Node" xmi:id="_g4Du0Q07Ee2AMPAkZoOy6g" type="7001">
@@ -123,6 +141,15 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_jGpl9w0-Ee2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jGpl-A0-Ee2AMPAkZoOy6g" x="302" y="234" width="203" height="160"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9DhtcA6YEe2AMPAkZoOy6g" type="2002" element="_9DdcAA6YEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_9Dhtcw6YEe2AMPAkZoOy6g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_9DhtdA6YEe2AMPAkZoOy6g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_9DhtdQ6YEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_9Dhtdg6YEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_9DhtcQ6YEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Dhtcg6YEe2AMPAkZoOy6g" x="45" y="465" width="193" height="160"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_IfSlQg0cEe2ik81HJsCKiA"/>
       </data>
@@ -196,17 +223,6 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_n7Y5kA05Ee2AMPAkZoOy6g" name="my.finances.app.core.flex" width="24" height="16">
-      <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.flex"/>
-      <semanticElements xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.flex"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_n7Y5kQ05Ee2AMPAkZoOy6g" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
-    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_g39BIA07Ee2AMPAkZoOy6g" name="my.finances.app.core.model.templates" width="24" height="16">
       <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.model.templates"/>
       <semanticElements xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.model.templates"/>
@@ -236,6 +252,17 @@
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_jGktcQ0-Ee2AMPAkZoOy6g" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_9DdcAA6YEe2AMPAkZoOy6g" name="my.finances.app.core.database" width="24" height="16">
+      <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.database"/>
+      <semanticElements xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.database"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_9DdcAQ6YEe2AMPAkZoOy6g" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
@@ -1746,17 +1773,364 @@
   <diagram:DSemanticDiagram uid="_fP5soA6YEe2AMPAkZoOy6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_fP6TsQ6YEe2AMPAkZoOy6g" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_fP6Tsg6YEe2AMPAkZoOy6g" type="Sirius" element="_fP5soA6YEe2AMPAkZoOy6g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_pgZsFg6YEe2AMPAkZoOy6g" type="2003" element="_pgZFAA6YEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_pgaTIQ6YEe2AMPAkZoOy6g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_pgaTIg6YEe2AMPAkZoOy6g" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_pgaTJQ6YEe2AMPAkZoOy6g" type="3010" element="_pgZsEg6YEe2AMPAkZoOy6g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_pgaTJg6YEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_pgaTJw6YEe2AMPAkZoOy6g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pgaTKA6YEe2AMPAkZoOy6g" type="3010" element="_pgZsFA6YEe2AMPAkZoOy6g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_pgaTKQ6YEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_pgaTKg6YEe2AMPAkZoOy6g"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_pgaTIw6YEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_pgaTJA6YEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_pgZsFw6YEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pgaTIA6YEe2AMPAkZoOy6g" x="505" y="205"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_fP6Tsw6YEe2AMPAkZoOy6g"/>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_fP6TtA6YEe2AMPAkZoOy6g" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_fP6TtQ6YEe2AMPAkZoOy6g"/>
     </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_pgZFAA6YEe2AMPAkZoOy6g" name="Period" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.core.model.month/Period"/>
+      <semanticElements xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.core.model.month/Period"/>
+      <decorations xmi:type="viewpoint:Decoration" uid="_pgZFAg6YEe2AMPAkZoOy6g">
+        <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
+      </decorations>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_pgZFAQ6YEe2AMPAkZoOy6g" iconPath="/org.eclipse.emf.ecoretools.design/icons/full/obj16/EClass_interface.gif" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="228,228,228">
+        <labelFormat>italic</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_pgZsEg6YEe2AMPAkZoOy6g" name="start : Date" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="components.ecore#//my.finances.app.core.model.month/Period/start"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="components.ecore#//my.finances.app.core.model.month/Period/start"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_pgZsEw6YEe2AMPAkZoOy6g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_pgZsFA6YEe2AMPAkZoOy6g" name="end : Date" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="components.ecore#//my.finances.app.core.model.month/Period/end"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="components.ecore#//my.finances.app.core.model.month/Period/end"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_pgZsFQ6YEe2AMPAkZoOy6g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_fP5soQ6YEe2AMPAkZoOy6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
-    <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.flex"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_D7VSwA6ZEe2AMPAkZoOy6g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_D7lxcA6ZEe2AMPAkZoOy6g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_D7lxcQ6ZEe2AMPAkZoOy6g" type="Sirius" element="_D7VSwA6ZEe2AMPAkZoOy6g" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_D7lxcg6ZEe2AMPAkZoOy6g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_D7mYgA6ZEe2AMPAkZoOy6g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_D7mYgQ6ZEe2AMPAkZoOy6g"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_D7VSwQ6ZEe2AMPAkZoOy6g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.core.database"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_MZ8d0A6ZEe2AMPAkZoOy6g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_MacNEA6ZEe2AMPAkZoOy6g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_MacNEQ6ZEe2AMPAkZoOy6g" type="Sirius" element="_MZ8d0A6ZEe2AMPAkZoOy6g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_RZEDPg6ZEe2AMPAkZoOy6g" type="2002" element="_RY_xwA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_RZEDQQ6ZEe2AMPAkZoOy6g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_RZEDQg6ZEe2AMPAkZoOy6g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_RZEDQw6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_RZEDRA6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_RZEDPw6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RZEDQA6ZEe2AMPAkZoOy6g" x="40" y="58" width="240" height="160"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_T4UUCA6ZEe2AMPAkZoOy6g" type="2002" element="_T4QCcA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_T4U68A6ZEe2AMPAkZoOy6g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_T4U68Q6ZEe2AMPAkZoOy6g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_T4U68g6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_T4U68w6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_T4UUCQ6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T4UUCg6ZEe2AMPAkZoOy6g" x="340" y="58" width="240" height="160"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WLkv9g6ZEe2AMPAkZoOy6g" type="2002" element="_WLgegA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_WLkv-Q6ZEe2AMPAkZoOy6g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_WLkv-g6ZEe2AMPAkZoOy6g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_WLkv-w6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_WLkv_A6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WLkv9w6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLkv-A6ZEe2AMPAkZoOy6g" x="630" y="58" width="240" height="160"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_afc_-A6ZEe2AMPAkZoOy6g" type="2002" element="_afYugA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_afc_-w6ZEe2AMPAkZoOy6g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_afc__A6ZEe2AMPAkZoOy6g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_afc__Q6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_afc__g6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_afc_-Q6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afc_-g6ZEe2AMPAkZoOy6g" x="935" y="58" width="240" height="160"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dtK5Kg6ZEe2AMPAkZoOy6g" type="2002" element="_dtGnsA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_dtK5LQ6ZEe2AMPAkZoOy6g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_dtK5Lg6ZEe2AMPAkZoOy6g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_dtK5Lw6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_dtK5MA6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dtK5Kw6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dtK5LA6ZEe2AMPAkZoOy6g" x="50" y="280" width="240" height="160"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_MacNEg6ZEe2AMPAkZoOy6g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_MacNEw6ZEe2AMPAkZoOy6g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_MacNFA6ZEe2AMPAkZoOy6g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_RY_xwA6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives.incomes" width="24" height="16">
+      <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes"/>
+      <semanticElements xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_RZAY0A6ZEe2AMPAkZoOy6g" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_T4QCcA6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives.outcomes" width="24" height="16">
+      <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.outcomes"/>
+      <semanticElements xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.outcomes"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_T4QCcQ6ZEe2AMPAkZoOy6g" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_WLgegA6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives.summary" width="24" height="16">
+      <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.summary"/>
+      <semanticElements xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.summary"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_WLgegQ6ZEe2AMPAkZoOy6g" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_afYugA6ZEe2AMPAkZoOy6g" name="my.finances.app.ui.perspectives.templates" width="24" height="16">
+      <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates"/>
+      <semanticElements xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_afYugQ6ZEe2AMPAkZoOy6g" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dtGnsA6ZEe2AMPAkZoOy6g" name="my.finances.app.perspectives.flex" width="24" height="16">
+      <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex"/>
+      <semanticElements xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dtGnsQ6ZEe2AMPAkZoOy6g" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_MZ8d0Q6ZEe2AMPAkZoOy6g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_jDNJsA6ZEe2AMPAkZoOy6g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_jDgrsA6ZEe2AMPAkZoOy6g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_jDgrsQ6ZEe2AMPAkZoOy6g" type="Sirius" element="_jDNJsA6ZEe2AMPAkZoOy6g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_kvtu5g6ZEe2AMPAkZoOy6g" type="2003" element="_kvpdYA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_kvuV4A6ZEe2AMPAkZoOy6g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_kvuV4Q6ZEe2AMPAkZoOy6g" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kvuV4g6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kvuV4w6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_kvtu5w6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kvtu6A6ZEe2AMPAkZoOy6g" x="510" y="120" width="178" height="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_jDgrsg6ZEe2AMPAkZoOy6g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_jDgrsw6ZEe2AMPAkZoOy6g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_jDgrtA6ZEe2AMPAkZoOy6g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_kvpdYA6ZEe2AMPAkZoOy6g" name="IncomesPerspective" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes/IncomesPerspective"/>
+      <semanticElements xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes/IncomesPerspective"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_kvpdYQ6ZEe2AMPAkZoOy6g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_jDNJsQ6ZEe2AMPAkZoOy6g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_ueQQsA6ZEe2AMPAkZoOy6g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ueQ3wg6ZEe2AMPAkZoOy6g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_ueQ3ww6ZEe2AMPAkZoOy6g" type="Sirius" element="_ueQQsA6ZEe2AMPAkZoOy6g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vEqJag6ZEe2AMPAkZoOy6g" type="2003" element="_vElQ4A6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_vEqJbQ6ZEe2AMPAkZoOy6g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_vEqJbg6ZEe2AMPAkZoOy6g" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEqJbw6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEqJcA6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEqJaw6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEqJbA6ZEe2AMPAkZoOy6g" x="510" y="190" width="163" height="123"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_ueQ3xA6ZEe2AMPAkZoOy6g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ueQ3xQ6ZEe2AMPAkZoOy6g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_ueQ3xg6ZEe2AMPAkZoOy6g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_vElQ4A6ZEe2AMPAkZoOy6g" name="OutcomePerspective" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.outcomes/OutcomePerspective"/>
+      <semanticElements xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.outcomes/OutcomePerspective"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_vEl38A6ZEe2AMPAkZoOy6g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_ueQQsQ6ZEe2AMPAkZoOy6g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.outcomes"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_xi0N4A6ZEe2AMPAkZoOy6g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_xi008A6ZEe2AMPAkZoOy6g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_xi008Q6ZEe2AMPAkZoOy6g" type="Sirius" element="_xi0N4A6ZEe2AMPAkZoOy6g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_yJlS-g6ZEe2AMPAkZoOy6g" type="2003" element="_yJgacA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_yJlS_Q6ZEe2AMPAkZoOy6g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_yJlS_g6ZEe2AMPAkZoOy6g" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_yJlS_w6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_yJlTAA6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_yJlS-w6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yJlS_A6ZEe2AMPAkZoOy6g" x="540" y="225" width="120" height="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_xi008g6ZEe2AMPAkZoOy6g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_xi008w6ZEe2AMPAkZoOy6g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_xi009A6ZEe2AMPAkZoOy6g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_yJgacA6ZEe2AMPAkZoOy6g" name="SummaryPerspective" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.summary/SummaryPerspective"/>
+      <semanticElements xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.summary/SummaryPerspective"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_yJgacQ6ZEe2AMPAkZoOy6g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_xi0N4Q6ZEe2AMPAkZoOy6g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.summary"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_0XptAA6ZEe2AMPAkZoOy6g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_0XqUEg6ZEe2AMPAkZoOy6g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_0XqUEw6ZEe2AMPAkZoOy6g" type="Sirius" element="_0XptAA6ZEe2AMPAkZoOy6g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_03H3Sg6ZEe2AMPAkZoOy6g" type="2003" element="_03C-wA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_03H3TQ6ZEe2AMPAkZoOy6g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_03H3Tg6ZEe2AMPAkZoOy6g" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_03H3Tw6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_03H3UA6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_03H3Sw6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_03H3TA6ZEe2AMPAkZoOy6g" x="435" y="235" width="120" height="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_0XqUFA6ZEe2AMPAkZoOy6g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_0Xq7IA6ZEe2AMPAkZoOy6g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_0Xq7IQ6ZEe2AMPAkZoOy6g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_03C-wA6ZEe2AMPAkZoOy6g" name="TemplatesPerspective" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates/TemplatesPerspective"/>
+      <semanticElements xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates/TemplatesPerspective"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_03C-wQ6ZEe2AMPAkZoOy6g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_0XptAQ6ZEe2AMPAkZoOy6g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_3BeO8A6ZEe2AMPAkZoOy6g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3Be2Aw6ZEe2AMPAkZoOy6g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_3Be2BA6ZEe2AMPAkZoOy6g" type="Sirius" element="_3BeO8A6ZEe2AMPAkZoOy6g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_3bWunA6ZEe2AMPAkZoOy6g" type="2003" element="_3bRPAA6ZEe2AMPAkZoOy6g">
+          <children xmi:type="notation:Node" xmi:id="_3bXVoA6ZEe2AMPAkZoOy6g" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_3bXVoQ6ZEe2AMPAkZoOy6g" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3bXVog6ZEe2AMPAkZoOy6g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3bXVow6ZEe2AMPAkZoOy6g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3bWunQ6ZEe2AMPAkZoOy6g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3bWung6ZEe2AMPAkZoOy6g" x="455" y="245" width="213" height="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_3Be2BQ6ZEe2AMPAkZoOy6g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3BfdEA6ZEe2AMPAkZoOy6g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3BfdEQ6ZEe2AMPAkZoOy6g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3bRPAA6ZEe2AMPAkZoOy6g" name="FlexPeriodsPerspective" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex/FlexPeriodsPerspective"/>
+      <semanticElements xmi:type="ecore:EClass" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex/FlexPeriodsPerspective"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3bRPAQ6ZEe2AMPAkZoOy6g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3Be2AA6ZEe2AMPAkZoOy6g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>

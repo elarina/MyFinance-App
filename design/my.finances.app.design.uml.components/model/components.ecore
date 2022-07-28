@@ -38,10 +38,25 @@
   </eSubpackages>
   <eSubpackages name="my.finances.app.ui"/>
   <eSubpackages name="my.finances.app.controller"/>
-  <eSubpackages name="my.finances.app.ui.perspectives"/>
+  <eSubpackages name="my.finances.app.ui.perspectives">
+    <eSubpackages name="my.finances.app.ui.perspectives.incomes">
+      <eClassifiers xsi:type="ecore:EClass" name="IncomesPerspective"/>
+    </eSubpackages>
+    <eSubpackages name="my.finances.app.ui.perspectives.outcomes">
+      <eClassifiers xsi:type="ecore:EClass" name="OutcomePerspective"/>
+    </eSubpackages>
+    <eSubpackages name="my.finances.app.ui.perspectives.summary">
+      <eClassifiers xsi:type="ecore:EClass" name="SummaryPerspective"/>
+    </eSubpackages>
+    <eSubpackages name="my.finances.app.ui.perspectives.templates">
+      <eClassifiers xsi:type="ecore:EClass" name="TemplatesPerspective"/>
+    </eSubpackages>
+    <eSubpackages name="my.finances.app.perspectives.flex">
+      <eClassifiers xsi:type="ecore:EClass" name="FlexPeriodsPerspective"/>
+    </eSubpackages>
+  </eSubpackages>
   <eSubpackages name="my.finances.app.ui.views"/>
   <eSubpackages name="my.finances.app.ui.commands"/>
-  <eSubpackages name="my.finances.app.core.flex"/>
   <eSubpackages name="my.finances.app.core.model.templates">
     <eClassifiers xsi:type="ecore:EClass" name="IncomesTemplate" eSuperTypes="#//my.finances.app.core.model.templates/TableContentTemplate"/>
     <eClassifiers xsi:type="ecore:EClass" name="OutcomesTemplate" eSuperTypes="#//my.finances.app.core.model.templates/TableContentTemplate"/>
@@ -76,4 +91,5 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Outcomes" eSuperTypes="#//my.finances.app.core.model.table.content/TableContent"/>
   </eSubpackages>
+  <eSubpackages name="my.finances.app.core.database"/>
 </ecore:EPackage>
