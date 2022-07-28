@@ -38,36 +38,24 @@ See uml diagrams at /design/my.finances.app.uml.components/model/components.ecor
 
 Elipse Modeling Framework should be installed into IDE for viewing diagrams.
 
-## Install EMF to IDE
+### Install EMF to IDE
 1. Help -> Install New Software...
 2. In "Work with" field type http://download.eclipse.org/releases/latest
 3. Find in list and expand "Modeling"
 4. Check "EMF - Eclipse Modeling Framework SDK" and the "Ecore Diagram Editor (SDK)"
 5. Install it.
 
-## Class diagram example
-### Old
-my.finances.app.core old class diagram:
-![](examples/my.finances.app.core_class_diagram.jpg)
-
-### New
-
-my.finances.app.core was split into plugins, one of which is my.finances.app.core.month.
-
-my.finances.app.core.month new class diagram:
-![](examples/my.finances.app.core.month_new_class_diagram.jpg)
-
 # User Interface Design
 See UI-sketches at /design/my.finances.app.design.ui/
 
 WireframeSketcher should be installed into IDE for viewing sketchs.
 
-## Install WireframeSketcher
+### Install WireframeSketcher
 1. Help -> Install New Software...
 2. In "Work with" field type https://wireframesketcher.com/updates
 3. Check all in list.
 4. Install it.
 
-## UI design examples
+### UI design examples
 Flex periods UI-perspective:
 ![](examples/flex_periods_persopective.JPG)
