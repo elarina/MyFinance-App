@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="components" nsURI="http://www.example.org/components" nsPrefix="components">
-  <eSubpackages name="my.finances.app.core.month" nsURI="http://www.example.org/core"
+  <eSubpackages name="my.finances.app.core.model.month" nsURI="http://www.example.org/core"
       nsPrefix="core">
-    <eClassifiers xsi:type="ecore:EClass" name="ConcretePeriod" eSuperTypes="#//my.finances.app.core.month/Period">
+    <eClassifiers xsi:type="ecore:EClass" name="ConcretePeriod" eSuperTypes="#//my.finances.app.core.model.month/Period">
       <eStructuralFeatures xsi:type="ecore:EReference" name="temporarynames" lowerBound="3"
-          upperBound="3" eType="#//my.finances.app.core.month/TableContent" containment="true"/>
+          upperBound="3" eType="#//my.finances.app.core.model.month/TableContent"
+          containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="TemplatePeriod" eSuperTypes="#//my.finances.app.core.month/Period">
+    <eClassifiers xsi:type="ecore:EClass" name="TemplatePeriod" eSuperTypes="#//my.finances.app.core.model.month/Period">
       <eStructuralFeatures xsi:type="ecore:EReference" name="tablecontenttemplates"
-          lowerBound="2" upperBound="2" eType="#//my.finances.app.core.templates/TableContentTemplate"
+          lowerBound="2" upperBound="2" eType="#//my.finances.app.core.model.templates/TableContentTemplate"
           containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Period" abstract="true" interface="true">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="start" eType="#//my.finances.app.core.month/Date"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="end" eType="#//my.finances.app.core.month/Date"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="start" eType="#//my.finances.app.core.model.month/Date"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="end" eType="#//my.finances.app.core.model.month/Date"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="TableContent" abstract="true">
       <eStructuralFeatures xsi:type="ecore:EReference" name="entries" upperBound="-1"
-          eType="#//my.finances.app.core.core/TableEntry" containment="true"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="entryList" eType="#//my.finances.app.core.month/List"/>
+          eType="#//my.finances.app.core.model.core/TableEntry" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="entryList" eType="#//my.finances.app.core.model.month/List"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EDataType" name="List" instanceClassName="java.util.List"/>
     <eClassifiers xsi:type="ecore:EDataType" name="Date" instanceClassName="java.util.Date"/>
     <eClassifiers xsi:type="ecore:EDataType" name="String" instanceClassName="java.lang.String"/>
     <eClassifiers xsi:type="ecore:EClass" name="Month">
       <eStructuralFeatures xsi:type="ecore:EReference" name="periods" lowerBound="2"
-          upperBound="2" eType="#//my.finances.app.core.month/Period" containment="true"/>
+          upperBound="2" eType="#//my.finances.app.core.model.month/Period" containment="true"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="year" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="month" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="periodList" eType="#//my.finances.app.core.month/List"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="periodList" eType="#//my.finances.app.core.model.month/List"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Root">
       <eStructuralFeatures xsi:type="ecore:EReference" name="months" upperBound="-1"
-          eType="#//my.finances.app.core.month/Month" containment="true"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="monthsList" eType="#//my.finances.app.core.month/List"/>
+          eType="#//my.finances.app.core.model.month/Month" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="monthsList" eType="#//my.finances.app.core.model.month/List"/>
     </eClassifiers>
   </eSubpackages>
   <eSubpackages name="my.finances.app.ui"/>
@@ -43,38 +44,38 @@
   <eSubpackages name="my.finances.app.ui.views"/>
   <eSubpackages name="my.finances.app.ui.commands"/>
   <eSubpackages name="my.finances.app.core.flex"/>
-  <eSubpackages name="my.finances.app.core.templates">
-    <eClassifiers xsi:type="ecore:EClass" name="IncomesTemplate" eSuperTypes="#//my.finances.app.core.templates/TableContentTemplate"/>
-    <eClassifiers xsi:type="ecore:EClass" name="OutcomesTemplate" eSuperTypes="#//my.finances.app.core.templates/TableContentTemplate"/>
+  <eSubpackages name="my.finances.app.core.model.templates">
+    <eClassifiers xsi:type="ecore:EClass" name="IncomesTemplate" eSuperTypes="#//my.finances.app.core.model.templates/TableContentTemplate"/>
+    <eClassifiers xsi:type="ecore:EClass" name="OutcomesTemplate" eSuperTypes="#//my.finances.app.core.model.templates/TableContentTemplate"/>
     <eClassifiers xsi:type="ecore:EClass" name="TableContentTemplate" abstract="true"
         interface="true">
       <eStructuralFeatures xsi:type="ecore:EReference" name="tableentries" upperBound="-1"
-          eType="#//my.finances.app.core.core/TableEntry" containment="true"/>
+          eType="#//my.finances.app.core.model.core/TableEntry" containment="true"/>
     </eClassifiers>
   </eSubpackages>
-  <eSubpackages name="my.finances.app.core.core">
-    <eClassifiers xsi:type="ecore:EClass" name="PeriodBalance" eSuperTypes="#//my.finances.app.core.core/BalanceEntry"/>
-    <eClassifiers xsi:type="ecore:EClass" name="BalanceEntry" abstract="true" eSuperTypes="#//my.finances.app.core.core/TableEntry"/>
-    <eClassifiers xsi:type="ecore:EClass" name="Salary" eSuperTypes="#//my.finances.app.core.core/IncomeEntry"/>
-    <eClassifiers xsi:type="ecore:EClass" name="IncomeEntry" abstract="true" eSuperTypes="#//my.finances.app.core.core/TableEntry"/>
-    <eClassifiers xsi:type="ecore:EClass" name="ConcreteIncome" eSuperTypes="#//my.finances.app.core.core/IncomeEntry"/>
-    <eClassifiers xsi:type="ecore:EClass" name="OutcomeEntry" eSuperTypes="#//my.finances.app.core.core/TableEntry"/>
+  <eSubpackages name="my.finances.app.core.model.core">
+    <eClassifiers xsi:type="ecore:EClass" name="PeriodBalance" eSuperTypes="#//my.finances.app.core.model.core/BalanceEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="BalanceEntry" abstract="true" eSuperTypes="#//my.finances.app.core.model.core/TableEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Salary" eSuperTypes="#//my.finances.app.core.model.core/IncomeEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="IncomeEntry" abstract="true" eSuperTypes="#//my.finances.app.core.model.core/TableEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="ConcreteIncome" eSuperTypes="#//my.finances.app.core.model.core/IncomeEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="OutcomeEntry" eSuperTypes="#//my.finances.app.core.model.core/TableEntry"/>
     <eClassifiers xsi:type="ecore:EClass" name="TableEntry" abstract="true" interface="true">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="date" eType="#//my.finances.app.core.month/Date"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="#//my.finances.app.core.month/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="date" eType="#//my.finances.app.core.model.month/Date"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="#//my.finances.app.core.model.month/String"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="sum" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment" eType="#//my.finances.app.core.month/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment" eType="#//my.finances.app.core.model.month/String"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="TotalBalance" eSuperTypes="#//my.finances.app.core.core/BalanceEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TotalBalance" eSuperTypes="#//my.finances.app.core.model.core/BalanceEntry"/>
   </eSubpackages>
-  <eSubpackages name="my.finances.app.core.table.content">
-    <eClassifiers xsi:type="ecore:EClass" name="Incomes" eSuperTypes="#//my.finances.app.core.table.content/TableContent"/>
-    <eClassifiers xsi:type="ecore:EClass" name="Balances" eSuperTypes="#//my.finances.app.core.table.content/TableContent"/>
+  <eSubpackages name="my.finances.app.core.model.table.content">
+    <eClassifiers xsi:type="ecore:EClass" name="Incomes" eSuperTypes="#//my.finances.app.core.model.table.content/TableContent"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Balances" eSuperTypes="#//my.finances.app.core.model.table.content/TableContent"/>
     <eClassifiers xsi:type="ecore:EClass" name="TableContent" abstract="true">
       <eStructuralFeatures xsi:type="ecore:EReference" name="entries" upperBound="-1"
-          eType="#//my.finances.app.core.core/TableEntry" containment="true"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="entryList" eType="#//my.finances.app.core.month/List"/>
+          eType="#//my.finances.app.core.model.core/TableEntry" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="entryList" eType="#//my.finances.app.core.model.month/List"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Outcomes" eSuperTypes="#//my.finances.app.core.table.content/TableContent"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Outcomes" eSuperTypes="#//my.finances.app.core.model.table.content/TableContent"/>
   </eSubpackages>
 </ecore:EPackage>
