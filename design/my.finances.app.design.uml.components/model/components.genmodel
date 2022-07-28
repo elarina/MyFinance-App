@@ -51,9 +51,9 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference components.ecore#//my.finances.app.controller/DatabaseController/database"/>
       </genClasses>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.controller/ModelControlleer">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.controller/ModelController">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.controller/ModelControlleer/model"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.controller/ModelController/model"/>
       </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage4" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.perspectives">
@@ -148,6 +148,8 @@
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage10" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.database">
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.database/Database"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.database/DBImitation"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.database/DBPostgres"/>
     </nestedGenPackages>
   </genPackages>
 </genmodel:GenModel>

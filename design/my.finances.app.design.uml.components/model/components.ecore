@@ -42,7 +42,7 @@
     <eClassifiers xsi:type="ecore:EClass" name="DatabaseController" eSuperTypes="#//my.finances.app.controller/Controller">
       <eStructuralFeatures xsi:type="ecore:EReference" name="database" eType="#//my.finances.app.core.database/Database"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="ModelControlleer" eSuperTypes="#//my.finances.app.controller/Controller">
+    <eClassifiers xsi:type="ecore:EClass" name="ModelController" eSuperTypes="#//my.finances.app.controller/Controller">
       <eStructuralFeatures xsi:type="ecore:EReference" name="model" eType="#//my.finances.app.core.model.core/Model"/>
     </eClassifiers>
   </eSubpackages>
@@ -131,5 +131,7 @@
   </eSubpackages>
   <eSubpackages name="my.finances.app.core.database">
     <eClassifiers xsi:type="ecore:EClass" name="Database" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="DBImitation" eSuperTypes="#//my.finances.app.core.database/Database"/>
+    <eClassifiers xsi:type="ecore:EClass" name="DBPostgres" eSuperTypes="#//my.finances.app.core.database/Database"/>
   </eSubpackages>
 </ecore:EPackage>
