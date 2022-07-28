@@ -37,7 +37,13 @@
     <eClassifiers xsi:type="ecore:EDataType" name="MonthPeriodList" instanceClassName="MonthPeriodList"/>
   </eSubpackages>
   <eSubpackages name="my.finances.app.ui"/>
-  <eSubpackages name="my.finances.app.controller"/>
+  <eSubpackages name="my.finances.app.controller">
+    <eClassifiers xsi:type="ecore:EClass" name="Controller" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="DatabaseController" eSuperTypes="#//my.finances.app.controller/Controller">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="database" eType="#//my.finances.app.core.database/Database"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ModelControlleer" eSuperTypes="#//my.finances.app.controller/Controller"/>
+  </eSubpackages>
   <eSubpackages name="my.finances.app.ui.perspectives">
     <eSubpackages name="my.finances.app.ui.perspectives.incomes">
       <eClassifiers xsi:type="ecore:EClass" name="IncomesPerspective"/>
@@ -56,27 +62,30 @@
     </eSubpackages>
   </eSubpackages>
   <eSubpackages name="my.finances.app.ui.views">
-    <eClassifiers xsi:type="ecore:EClass" name="IncomesView">
+    <eClassifiers xsi:type="ecore:EClass" name="IncomesView" eSuperTypes="#//my.finances.app.ui.views/View">
       <eStructuralFeatures xsi:type="ecore:EReference" name="periodsview" eType="#//my.finances.app.ui.views/PeriodsView"
           eOpposite="#//my.finances.app.ui.views/PeriodsView/incomesview"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="OutcomesView">
+    <eClassifiers xsi:type="ecore:EClass" name="OutcomesView" eSuperTypes="#//my.finances.app.ui.views/View">
       <eStructuralFeatures xsi:type="ecore:EReference" name="periodsview" eType="#//my.finances.app.ui.views/PeriodsView"
           eOpposite="#//my.finances.app.ui.views/PeriodsView/outcomesview"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="BalancesView">
+    <eClassifiers xsi:type="ecore:EClass" name="BalancesView" eSuperTypes="#//my.finances.app.ui.views/View">
       <eStructuralFeatures xsi:type="ecore:EReference" name="periodsview" eType="#//my.finances.app.ui.views/PeriodsView"
           eOpposite="#//my.finances.app.ui.views/PeriodsView/balancesview"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="incomesview" eType="#//my.finances.app.ui.views/IncomesView"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="outcomesview" eType="#//my.finances.app.ui.views/OutcomesView"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="PeriodsView">
+    <eClassifiers xsi:type="ecore:EClass" name="PeriodsView" eSuperTypes="#//my.finances.app.ui.views/View">
       <eStructuralFeatures xsi:type="ecore:EReference" name="incomesview" eType="#//my.finances.app.ui.views/IncomesView"
           eOpposite="#//my.finances.app.ui.views/IncomesView/periodsview"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="outcomesview" eType="#//my.finances.app.ui.views/OutcomesView"
           eOpposite="#//my.finances.app.ui.views/OutcomesView/periodsview"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="balancesview" eType="#//my.finances.app.ui.views/BalancesView"
           eOpposite="#//my.finances.app.ui.views/BalancesView/periodsview"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="View" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="controller" eType="#//my.finances.app.controller/Controller"/>
     </eClassifiers>
   </eSubpackages>
   <eSubpackages name="my.finances.app.ui.commands"/>
@@ -103,6 +112,10 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment" eType="#//my.finances.app.core.model.month/String"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="TotalBalance" eSuperTypes="#//my.finances.app.core.model.core/BalanceEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Model">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="tableentry" eType="#//my.finances.app.core.model.core/TableEntry"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="period" eType="#//my.finances.app.core.model.month/Period"/>
+    </eClassifiers>
   </eSubpackages>
   <eSubpackages name="my.finances.app.core.model.table.content">
     <eClassifiers xsi:type="ecore:EClass" name="Incomes" eSuperTypes="#//my.finances.app.core.model.table.content/TableContent"/>
@@ -114,5 +127,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Outcomes" eSuperTypes="#//my.finances.app.core.model.table.content/TableContent"/>
   </eSubpackages>
-  <eSubpackages name="my.finances.app.core.database"/>
+  <eSubpackages name="my.finances.app.core.database">
+    <eClassifiers xsi:type="ecore:EClass" name="Database" abstract="true"/>
+  </eSubpackages>
 </ecore:EPackage>

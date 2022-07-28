@@ -45,7 +45,14 @@
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.month/MonthPeriodsList"/>
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage2" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui"/>
-    <nestedGenPackages prefix="NewPackage3" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.controller"/>
+    <nestedGenPackages prefix="NewPackage3" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.controller">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.controller/Controller"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.controller/DatabaseController">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.controller/DatabaseController/database"/>
+      </genClasses>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.controller/ModelControlleer"/>
+    </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage4" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.perspectives">
       <nestedGenPackages prefix="My.finances.app.ui.perspectives.incomes" disposableProviderFactory="true"
           ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.incomes">
@@ -93,6 +100,10 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/PeriodsView/balancesview"/>
       </genClasses>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.ui.views/View">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/View/controller"/>
+      </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage6" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.commands"/>
     <nestedGenPackages prefix="NewPackage8" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.model.templates">
@@ -116,6 +127,12 @@
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.model.core/TableEntry/comment"/>
       </genClasses>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.core/TotalBalance"/>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.core/Model">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.core/Model/tableentry"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.core/Model/period"/>
+      </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage10" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.model.table.content">
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.table.content/Incomes"/>
@@ -126,6 +143,8 @@
       </genClasses>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.table.content/Outcomes"/>
     </nestedGenPackages>
-    <nestedGenPackages prefix="NewPackage10" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.database"/>
+    <nestedGenPackages prefix="NewPackage10" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.database">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.core.database/Database"/>
+    </nestedGenPackages>
   </genPackages>
 </genmodel:GenModel>
