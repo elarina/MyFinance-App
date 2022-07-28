@@ -33,11 +33,6 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="periodList" eType="#//my.finances.app.core.model.month/MonthPeriodList"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="periodslist" eType="#//my.finances.app.core.model.month/MonthPeriodsList"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Root">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="months" upperBound="-1"
-          eType="#//my.finances.app.core.model.month/Month" containment="true"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="monthsList" eType="#//my.finances.app.core.model.month/List"/>
-    </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="MonthPeriodsList"/>
     <eClassifiers xsi:type="ecore:EDataType" name="MonthPeriodList" instanceClassName="MonthPeriodList"/>
   </eSubpackages>

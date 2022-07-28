@@ -42,11 +42,6 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.month/Month/periodslist"/>
       </genClasses>
-      <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.month/Root">
-        <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.month/Root/months"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.model.month/Root/monthsList"/>
-      </genClasses>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.month/MonthPeriodsList"/>
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage2" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui"/>
