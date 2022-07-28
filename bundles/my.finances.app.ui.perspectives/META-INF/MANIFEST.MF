@@ -7,7 +7,8 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: my.finances.app.ui.perspectives.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.eclipse.core.resources
+ org.eclipse.core.resources,
+ my.finances.app.ui.views
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Automatic-Module-Name: my.finance.perspective.incomes
 Bundle-ActivationPolicy: lazy

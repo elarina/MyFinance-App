@@ -9,8 +9,8 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.apache.felix.scr,
  org.eclipse.equinox.event,
- my.finance.ui.views,
- my.finances.app.ui.perspectives
+ my.finances.app.ui.perspectives,
+ my.finances.app.ui.views
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Automatic-Module-Name: my.finances.app
 Bundle-ActivationPolicy: lazy

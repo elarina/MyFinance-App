@@ -41,9 +41,9 @@
       <plugin id="com.sun.jna.platform"/>
       <plugin id="javax.annotation"/>
       <plugin id="javax.inject"/>
-      <plugin id="my.finance.ui.views"/>
       <plugin id="my.finances.app"/>
       <plugin id="my.finances.app.ui.perspectives"/>
+      <plugin id="my.finances.app.ui.views"/>
       <plugin id="org.apache.batik.constants"/>
       <plugin id="org.apache.batik.css"/>
       <plugin id="org.apache.batik.i18n"/>
@@ -52,6 +52,7 @@
       <plugin id="org.apache.commons.jxpath"/>
       <plugin id="org.apache.commons.logging"/>
       <plugin id="org.apache.felix.scr"/>
+      <plugin id="org.apache.xerces"/>
       <plugin id="org.apache.xmlgraphics"/>
       <plugin id="org.bouncycastle.bcpg"/>
       <plugin id="org.bouncycastle.bcprov"/>
@@ -116,7 +117,6 @@
       <plugin id="org.eclipse.equinox.registry"/>
       <plugin id="org.eclipse.equinox.security"/>
       <plugin id="org.eclipse.equinox.security.win32.x86_64" fragment="true"/>
-      <plugin id="org.eclipse.equinox.simpleconfigurator"/>
       <plugin id="org.eclipse.help"/>
       <plugin id="org.eclipse.jface"/>
       <plugin id="org.eclipse.jface.databinding"/>
@@ -167,12 +167,5 @@
       <feature id="my.finance.ui.feature" installMode="root"/>
    </features>
 
-   <configurations>
-      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
-      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
-   </configurations>
 
 </product>
