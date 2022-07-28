@@ -4,7 +4,7 @@ import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
 import org.eclipse.ui.application.WorkbenchAdvisor;
 import org.eclipse.ui.application.WorkbenchWindowAdvisor;
 
-import my.finance.ui.perspective.outcomes.perspective.IncomesPerspective;
+import my.finances.app.ui.perspectives.incomes.IncomesPerspective;
 
 /**
  * This workbench advisor creates the window advisor, and specifies

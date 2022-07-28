@@ -86,7 +86,6 @@
   <modules>
    <module>bundles/my.finances.app</module>
 	<module>bundles/my.finance.ui.views</module>
-	<module>bundles/my.finance.ui.perspective.outcomes</module>
-	<module>bundles/my.finance.ui.perspective.incomes</module>
+	<module>bundles/my.finances.app.ui.perspectives</module>
  </modules>
 </project>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Incomes
+Bundle-Localization: plugin
+Bundle-SymbolicName: my.finances.app.ui.perspectives;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: my.finances.app.ui.perspectives.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: my.finance.perspective.incomes
+Bundle-ActivationPolicy: lazy
+Export-Package: my.finances.app.ui.perspectives.incomes,
+ my.finances.app.ui.perspectives.outcomes

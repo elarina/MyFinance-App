@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="my.finances.app.ui.perspectives.incomes.IncomesPerspective"
+            icon="icons/incomes.png"
+            id="my.finances.app.ui.perspectives.incomes"
+            name="%incomes">
+      </perspective>
+      <perspective
+            class="my.finances.app.ui.perspectives.outcomes.OutcomesPerspective"
+            icon="icons/outcomes.png"
+            id="my.finances.app.ui.perspectives.outcomes"
+            name="%outcomes">
+      </perspective>
+      <perspective
+            class="my.finances.app.ui.perspectives.summary.SummaryPerspective"
+            icon="icons/summary.png"
+            id="my.finances.app.ui.perspectives.summary"
+            name="%summary">
+      </perspective>
+      <perspective
+            class="my.finances.app.ui.perspectives.templates.TepmlatesPerspective"
+            icon="icons/templates.png"
+            id="my.finances.app.ui.perspectives.templates"
+            name="%tepmlates">
+      </perspective>
+      <perspective
+            class="my.finances.app.ui.perspectives.flex.FlexPeriodsPerspective"
+            icon="icons/flex.png"
+            id="my.finances.app.ui.perspectives.flex"
+            name="%flex">
+      </perspective>
+   </extension>
+</plugin>

@@ -3,7 +3,6 @@
 
 <product name="Finances App" uid="finances" id="my.finances.app.finances" application="my.finances.app.application" version="1.0.0.qualifier" useFeatures="false" includeLaunchers="true">
 
-
    <configIni use="default">
    </configIni>
 
@@ -28,10 +27,8 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
-
 
    <plugins>
       <plugin id="biz.aQute.bndlib"/>
@@ -44,10 +41,9 @@
       <plugin id="com.sun.jna.platform"/>
       <plugin id="javax.annotation"/>
       <plugin id="javax.inject"/>
-      <plugin id="my.finance.ui.perspective.incomes"/>
-      <plugin id="my.finance.ui.perspective.outcomes"/>
       <plugin id="my.finance.ui.views"/>
       <plugin id="my.finances.app"/>
+      <plugin id="my.finances.app.ui.perspectives"/>
       <plugin id="org.apache.batik.constants"/>
       <plugin id="org.apache.batik.css"/>
       <plugin id="org.apache.batik.i18n"/>
