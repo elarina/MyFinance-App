@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Incomes
+Bundle-Name: Perspectives
 Bundle-Localization: plugin
 Bundle-SymbolicName: my.finances.app.ui.perspectives;singleton:=true
 Bundle-Version: 1.0.0.qualifier
