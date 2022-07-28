@@ -17,11 +17,11 @@
       <genDataTypes ecoreDataType="components.ecore#//my.finances.app.core.model.month/String"/>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.month/ConcretePeriod">
         <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.month/ConcretePeriod/temporarynames"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.month/ConcretePeriod/contents"/>
       </genClasses>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.month/TemplatePeriod">
         <genFeatures children="true" createChild="true" propertySortChoices="true"
-            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.month/TemplatePeriod/tablecontenttemplates"/>
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.month/TemplatePeriod/templates"/>
       </genClasses>
       <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.model.month/Period">
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute components.ecore#//my.finances.app.core.model.month/Period/start"/>
@@ -55,7 +55,7 @@
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.templates/IncomesTemplate"/>
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.templates/OutcomesTemplate"/>
       <genClasses image="false" ecoreClass="components.ecore#//my.finances.app.core.model.templates/TableContentTemplate">
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.templates/TableContentTemplate/tableentries"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference components.ecore#//my.finances.app.core.model.templates/TableContentTemplate/entries"/>
       </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage9" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.model.core">
