@@ -55,7 +55,30 @@
       <eClassifiers xsi:type="ecore:EClass" name="FlexPeriodsPerspective"/>
     </eSubpackages>
   </eSubpackages>
-  <eSubpackages name="my.finances.app.ui.views"/>
+  <eSubpackages name="my.finances.app.ui.views">
+    <eClassifiers xsi:type="ecore:EClass" name="IncomesView">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="periodsview" eType="#//my.finances.app.ui.views/PeriodsView"
+          eOpposite="#//my.finances.app.ui.views/PeriodsView/incomesview"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="OutcomesView">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="periodsview" eType="#//my.finances.app.ui.views/PeriodsView"
+          eOpposite="#//my.finances.app.ui.views/PeriodsView/outcomesview"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="BalancesView">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="periodsview" eType="#//my.finances.app.ui.views/PeriodsView"
+          eOpposite="#//my.finances.app.ui.views/PeriodsView/balancesview"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="incomesview" eType="#//my.finances.app.ui.views/IncomesView"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="outcomesview" eType="#//my.finances.app.ui.views/OutcomesView"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="PeriodsView">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="incomesview" eType="#//my.finances.app.ui.views/IncomesView"
+          eOpposite="#//my.finances.app.ui.views/IncomesView/periodsview"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="outcomesview" eType="#//my.finances.app.ui.views/OutcomesView"
+          eOpposite="#//my.finances.app.ui.views/OutcomesView/periodsview"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="balancesview" eType="#//my.finances.app.ui.views/BalancesView"
+          eOpposite="#//my.finances.app.ui.views/BalancesView/periodsview"/>
+    </eClassifiers>
+  </eSubpackages>
   <eSubpackages name="my.finances.app.ui.commands"/>
   <eSubpackages name="my.finances.app.core.model.templates">
     <eClassifiers xsi:type="ecore:EClass" name="IncomesTemplate" eSuperTypes="#//my.finances.app.core.model.templates/TableContentTemplate"/>

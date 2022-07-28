@@ -63,11 +63,37 @@
           ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates">
         <genClasses ecoreClass="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.ui.perspectives.templates/TemplatesPerspective"/>
       </nestedGenPackages>
-      <nestedGenPackages prefix="NewPackage5" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex">
+      <nestedGenPackages prefix="My.finances.app.perspectives.flex" disposableProviderFactory="true"
+          ecorePackage="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex">
         <genClasses ecoreClass="components.ecore#//my.finances.app.ui.perspectives/my.finances.app.perspectives.flex/FlexPeriodsPerspective"/>
       </nestedGenPackages>
     </nestedGenPackages>
-    <nestedGenPackages prefix="NewPackage5" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.views"/>
+    <nestedGenPackages prefix="NewPackage5" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.views">
+      <genClasses ecoreClass="components.ecore#//my.finances.app.ui.views/IncomesView">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/IncomesView/periodsview"/>
+      </genClasses>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.ui.views/OutcomesView">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/OutcomesView/periodsview"/>
+      </genClasses>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.ui.views/BalancesView">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/BalancesView/periodsview"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/BalancesView/incomesview"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/BalancesView/outcomesview"/>
+      </genClasses>
+      <genClasses ecoreClass="components.ecore#//my.finances.app.ui.views/PeriodsView">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/PeriodsView/incomesview"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/PeriodsView/outcomesview"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference components.ecore#//my.finances.app.ui.views/PeriodsView/balancesview"/>
+      </genClasses>
+    </nestedGenPackages>
     <nestedGenPackages prefix="NewPackage6" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.ui.commands"/>
     <nestedGenPackages prefix="NewPackage8" disposableProviderFactory="true" ecorePackage="components.ecore#//my.finances.app.core.model.templates">
       <genClasses ecoreClass="components.ecore#//my.finances.app.core.model.templates/IncomesTemplate"/>
