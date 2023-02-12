@@ -1,6 +1,8 @@
 # MyFinances-App
 Financial accounting application based on Eclipse RCP.
 
+RequiredExecutionEnvironment: JavaSE-17
+
 # Run from IDE
 
 ## Import to workspace
@@ -22,6 +24,7 @@ Financial accounting application based on Eclipse RCP.
 9. Run
 
 # Build with maven and Run executable
+
 ## Build
 1. Open command line
 2. Go to project root
