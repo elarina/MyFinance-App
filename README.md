@@ -1,7 +1,7 @@
 # MyFinances-App
 Financial accounting application based on Eclipse RCP.
 
-RequiredExecutionEnvironment: JavaSE-17
+Required Execution Environment: JavaSE-17
 
 # Run from IDE
 
