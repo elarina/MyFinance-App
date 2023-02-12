@@ -3,6 +3,7 @@
 
 <product name="Finances App" uid="finances" id="my.finances.app.finances" application="my.finances.app.application" version="1.0.0.qualifier" useFeatures="false" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -12,6 +13,7 @@
    </launcherArgs>
 
    <windowImages/>
+
 
    <launcher name="MyFinance">
       <win useIco="false">
@@ -27,8 +29,10 @@
       </win>
    </launcher>
 
+
    <vm>
    </vm>
+
 
    <plugins>
       <plugin id="biz.aQute.bndlib"/>
@@ -167,5 +171,18 @@
       <feature id="my.finance.ui.feature" installMode="root"/>
    </features>
 
+   <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+   </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>

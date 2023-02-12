@@ -11,6 +11,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.equinox.event,
  my.finances.app.ui.perspectives,
  my.finances.app.ui.views
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Automatic-Module-Name: my.finances.app
 Bundle-ActivationPolicy: lazy

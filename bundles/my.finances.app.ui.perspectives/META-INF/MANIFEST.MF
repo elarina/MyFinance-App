@@ -9,7 +9,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.core.resources,
  my.finances.app.ui.views
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Automatic-Module-Name: my.finance.perspective.incomes
 Bundle-ActivationPolicy: lazy
 Export-Package: my.finances.app.ui.perspectives.incomes,
