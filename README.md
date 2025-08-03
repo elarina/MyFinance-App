@@ -58,7 +58,3 @@ WireframeSketcher should be installed into IDE for viewing sketchs.
 2. In "Work with" field type https://wireframesketcher.com/updates
 3. Check all in list.
 4. Install it.
-
-### UI design examples
-Flex periods UI-perspective:
-![](examples/flex_periods_persopective.JPG)
